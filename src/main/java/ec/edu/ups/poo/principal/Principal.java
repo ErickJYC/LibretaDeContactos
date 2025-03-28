@@ -8,6 +8,16 @@ import java.util.Scanner;
 
 public class Principal {
     public static void main(String[] args) {
+
+        Persona persona = new Persona();
+        persona.setCedula("02002020");
+        persona.setNombre("Jose");
+        persona.setApellido("Perez");
+        persona.setDireccion("Loja");
+
+
+
+
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingreseel numero de familiares");
         int numeroFamilares = scanner.nextInt();
