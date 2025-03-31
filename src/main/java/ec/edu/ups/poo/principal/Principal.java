@@ -1,5 +1,5 @@
 package ec.edu.ups.poo.principal;
-
+//Hola
 import ec.edu.ups.poo.clases.Familiar;
 import ec.edu.ups.poo.clases.Persona;//se importa porque estan en paquetes diferentes
 
