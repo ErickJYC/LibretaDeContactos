@@ -16,24 +16,24 @@ public class Principal {
         Familiar[] familiares = new Familiar[numeroFamilares];
         for (int i = 0; i < numeroFamilares; i++) {
             scanner.nextLine();
-            System.out.println("Ingrese el numero de cedula");
+            System.out.print("* numero de cedula → ");
             String cedula = scanner.nextLine();
-            System.out.println("Ingrese el nombre");
+            System.out.print("* nombre → ");
             String nombre = scanner.nextLine();
-            System.out.println("Ingrese el apellido");
+            System.out.print("* apellido → ");
             String apellido = scanner.nextLine();
-            System.out.println("Ingrese la direccion");
+            System.out.print("* direccion → ");
             String direccion = scanner.nextLine();
-            System.out.println("Ingrese el parentesco");
+            System.out.print("* parentesco → ");
             String parentesco = scanner.nextLine();
-            System.out.println("Ingrese el Tipo de Sangre");
+            System.out.print("* Tipo de Sangre → ");
             String tipoDeSangre = scanner.nextLine();
-            System.out.println("Ingrese la fecha de nacimiento");
-            System.out.println("Ingrese el anio de nacimiento");
+            System.out.print("* fecha de nacimiento → ");
+            System.out.print("* anio de nacimiento → ");
             int anio = scanner.nextInt();
-            System.out.println("Ingrese el mes de nacimiento");
+            System.out.print("* mes de nacimiento → ");
             int mes = scanner.nextInt();
-            System.out.println("Ingrese el dia de nacimiento");
+            System.out.print("* dia de nacimiento → ");
             int dia = scanner.nextInt();
             GregorianCalendar fechaDeNacimiento = new GregorianCalendar(anio, mes - 1, dia);
 
